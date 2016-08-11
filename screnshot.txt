@@ -1,0 +1,2 @@
+File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+FileItils.copyFile(srcFile,new File("c:\\Screenshotfolder\\image123.jpg"))
